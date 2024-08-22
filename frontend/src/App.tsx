@@ -27,8 +27,8 @@ function closeMenu(){
                     <a href="index.html">GoodGlobe Store</a>
                 </div>
                 <div className="header-links">
-                    <a href="/">Home</a>
-                    <a href="/catalog">Catalog</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/catalog">Catalog</Link>
                 </div>
             </header>
             <aside className="sidebar">
@@ -48,8 +48,8 @@ function closeMenu(){
             </aside>
             <main className="main">
                 <Routes>
-                    <Route path="/" element= {<Home/>}/>
-                    <Route path="/catalog" element={<Products/>} />
+                    <Route path="/" element= {<Home />}/>
+                    <Route path="/catalog" element={<Products />} />
                 </Routes>
                 </main>
             <footer>
