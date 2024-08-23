@@ -56,7 +56,7 @@ function App() {
                 </Routes>
             </main>
             <footer>
-                &copy; 2023 Penguins 121
+                &copy; 2024 GoodGlobe LLC
             </footer>
         </div>
     </body>
